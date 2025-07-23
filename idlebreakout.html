@@ -2,197 +2,123 @@
 <html lang="en">
 
 <head>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9835219927652942"
-    crossorigin="anonymous"></script>
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Idle Breakout</title>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-T0ETD8FE1B"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-T0ETD8FE1B');
-  </script>
+  <meta name="description" content="Idle Breakout is a fun idle game where you smash bricks, earn cash, and upgrade balls to boost your power. Play free online no downloads, just tap and break!">
+ <meta name="keywords" content="block breaker,idle breakout,block breaker unblocked, google block breaker, google doodle block breaker, block breaker de google, google block breaker game">
+  <meta name="robots" content="index, follow">			
+<meta name="author" content="idle breakout Games Team">			
+<meta name="publisher" content="idle breakout Games Team">			
   <style>
-    body, html {
-      margin: 0;
-      padding: 0;
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
-      position: relative;
-      background-color: #f0f0f0;
-    }
+  body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
 
-    .content {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      width: 73%;
-      height: 73%;
-      overflow: hidden;
-      border: 2px solid #ccc;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
+.content {
+  max-width: 1100px;
+  margin: 20px auto;
+  padding: 0;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
 
-    iframe {
-      width: 100%;
-      height: 100%;
-      border: none;
-    }
+iframe {
+  width: 100%;
+  height: 600px;
+  border: none;
+  display: block;
+}
 
-    .fullscreen-button, .home-button {
-      position: absolute;
-      font-size: 16px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      z-index: 1;
-      transition: background-color 0.3s ease, transform 0.3s ease;
-    }
+.container {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 0 20px;
+  color: #000;
+}
 
-    .fullscreen-button {
-      bottom: 10px;
-      right: 10px;
-      background: linear-gradient(to right, #ff6b6b, #556270);
-      color: #fff;
-      padding: 10px 20px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
+h2 {
+  margin-top: 30px;
+  color: #000;
+}
 
-    .fullscreen-button:hover {
-      background: linear-gradient(to right, #ff946b, #445370);
-    }
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
 
-    .fullscreen-button:active {
-      transform: scale(0.95);
-    }
+.fullscreen-button, .home-button {
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  padding: 10px 20px;
+  margin: 10px;
+}
 
-    .home-button {
-      top: 7px;
-      right: 7px;
-      background: linear-gradient(to right, #4facfe, #00f2fe);
-      color: #fff;
-      padding: 10px 20px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
+.fullscreen-button {
+  background: linear-gradient(to right, #ff6b6b, #556270);
+  color: #fff;
+}
 
-    .home-button:hover {
-      background: linear-gradient(to right, #4facfe, #00acfe);
-    }
-
-    .home-button:active {
-      transform: scale(0.95);
-    }
-
-    .ad-container {
-      width: 100%;
-      text-align: center;
-      margin: 10px 0;
-    }
-
-    .ad-left, .ad-right {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 120px; /* Adjust width as needed */
-      height: auto;
-    }
-
-    .ad-left {
-      left: 10px;
-    }
-
-    .ad-right {
-      right: 10px;
-    }
-
-    .ad-top {
-      position: absolute;
-      top: 0;
-      width: 100%;
-      text-align: center;
-      margin: 10px;
-    }
-
-    .ad-bottom {
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-      text-align: center;
-      margin: 10px;
-    }
+.home-button {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: #fff;
+}
   </style>
 </head>
 
 <body>
 
-  <div class="ad-top">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9835219927652942"
-       crossorigin="anonymous"></script>
-    <!-- Horizontal Fixed -->
-    <ins class="adsbygoogle"
-       style="display:inline-block;width:728px;height:90px"
-       data-ad-client="ca-pub-9835219927652942"
-       data-ad-slot="6368022940"></ins>
-    <script>
-       (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-  </div>
+  <h1 style="font-weight: bolder; color:black; text-align: center;">idle breakout</h1>
 
   <div class="content">
     <iframe id="gameFrame" src="https://sciencemathedu.github.io/idlebreakout/" onload="focusGame()"></iframe>
+  </div>
+
+  <div style="text-align:center;">
     <button class="fullscreen-button" onclick="toggleFullScreen()">Fullscreen</button>
+    <button class="home-button" onclick="goToHomePage()">Home</button>
   </div>
 
-  <div class="ad-left">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9835219927652942"
-       crossorigin="anonymous"></script>
-    <!-- Vertical Responsive -->
-    <ins class="adsbygoogle"
-       style="display:block"
-       data-ad-client="ca-pub-9835219927652942"
-       data-ad-slot="2950456456"
-       data-ad-format="auto"
-       data-full-width-responsive="true"></ins>
-    <script>
-       (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
+  <div class="container">
+  <h2>Idle Breakout: The Ultimate Brick Breaking Challenge</h2>
+        
+        <p>Idle Breakout combines classic brick-breaking action with idle game mechanics for an addictive gaming experience. As one of the top <strong>Block Breaker Google</strong> style games, it offers endless entertainment with progressive challenges.</p>
+        
+        <h2>How to Play Idle Breakout</h2>
+        <ol>
+            <li>Launch the ball by clicking or tapping the screen</li>
+            <li>Use your paddle to keep the ball in play</li>
+            <li>Break bricks to earn points and currency</li>
+            <li>Upgrade your paddle, balls, and abilities between rounds</li>
+            <li>Progress through increasingly challenging levels</li>
+        </ol>
+        
+        <h2>Idle Breakout Tips & Strategies</h2>
+        <ul>
+            <li>Focus on ball upgrades early in the game</li>
+            <li>Balance active play with idle earnings</li>
+            <li>Unlock multiple balls for faster progression</li>
+            <li>Complete achievements for bonus rewards</li>
+        </ul>
+        
+        <h2>FAQs</h2>
+        <p><strong>Q: Is Idle Breakout similar to block blast unblocked games?</strong><br>
+        A: Yes, it shares similar mechanics but with added idle progression elements.</p>
+        
+        <p><strong>Q: Can I play offline?</strong><br>
+        A: Most versions allow offline play with limited features.</p>
+        
+        <p>For more exciting brick-breaking action, check out <a href="https://google-block-breaker.gitlab.io/" target="_blank" rel="noopener">Google Block Breaker</a>, featuring similar gameplay with unique twists!</p>
   </div>
-
-  <div class="ad-right">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9835219927652942"
-       crossorigin="anonymous"></script>
-    <!-- Vertical Responsive -->
-    <ins class="adsbygoogle"
-       style="display:block"
-       data-ad-client="ca-pub-9835219927652942"
-       data-ad-slot="2950456456"
-       data-ad-format="auto"
-       data-full-width-responsive="true"></ins>
-    <script>
-       (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-  </div>
-
-  <div class="ad-bottom">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9835219927652942"
-       crossorigin="anonymous"></script>
-    <!-- Horizontal Fixed -->
-    <ins class="adsbygoogle"
-       style="display:inline-block;width:728px;height:90px"
-       data-ad-client="ca-pub-9835219927652942"
-       data-ad-slot="6368022940"></ins>
-    <script>
-       (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-  </div>
-
-  <button class="home-button" onclick="goToHomePage()">Home</button>
 
   <script>
     function toggleFullScreen() {
