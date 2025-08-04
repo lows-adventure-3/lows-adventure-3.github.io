@@ -3,4 +3,4 @@ Disallow: /admin
 
 Allow: /sitemap.xml
 
-Sitemap:https://google-block-breaker.gitlab.io/sitemap.xml
+Sitemap:https://lowsadventure3.gitlab.io/sitemap.xml
